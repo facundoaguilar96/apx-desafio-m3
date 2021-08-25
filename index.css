@@ -13,6 +13,11 @@ body {
   width: 100%;
   background-image: url("./puntitos.png");
 }
+@media (min-width: 769px) {
+  .contenedor-uno {
+    height: 616px;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +27,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.compu-header {
+  display: none;
+}
+@media (min-width: 769px) {
+  .contenedor-rectangulo {
+    display: none;
+  }
+  .compu-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-right: 103px;
+  }
 }
 .rectangulo {
   width: 40px;
@@ -33,18 +52,36 @@ body {
 .logo {
   height: 100px;
 }
+@media (min-width: 769px) {
+  .logo {
+    height: 150px;
+  }
+}
 
 .main {
   margin: 0;
 }
 
+.center-12 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 769px) {
+  .center-12 {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-left: 60px;
+  }
+}
+
 .bienvenida {
   width: 291px;
   height: 96px;
-  margin-left: 42px;
-  margin-right: 42px;
 }
 .bienvenida-h1 {
+  width: 100%;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -56,6 +93,24 @@ body {
 .imagen-main {
   height: 320px;
   margin: 80px auto;
+}
+.center-doge {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+@media (min-width: 769px) {
+  .imagen-main {
+    height: 420px;
+    margin: 0;
+  }
+  .center-doge {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: baseline;
+    align-content: flex-start;
+  }
 }
 
 .seccion-1 {
@@ -85,11 +140,11 @@ body {
 .contenedor-info {
   width: 312px;
   height: 193px;
-  margin-left: 31px;
+  margin: 0 auto;
 }
 .sobre-mi {
   color: white;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -97,7 +152,10 @@ body {
 }
 
 .check-img {
-  margin: 57px 147px;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: center;
 }
 
 .seccion-2 {
