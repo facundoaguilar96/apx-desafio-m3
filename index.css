@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contenedor-uno {
+  height: 614px;
+  width: 100%;
+  background-image: url("./puntitos.png");
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.contenedor-rectangulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rectangulo {
+  width: 40px;
+  height: 8px;
+  background-color: black;
+  margin-bottom: 8px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.main {
+  margin: 0;
+}
+
+.bienvenida {
+  width: 291px;
+  height: 96px;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+.bienvenida-h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+.imagen-main {
+  height: 320px;
+  margin: 80px auto;
+}
+
+.seccion-1 {
+  position: absolute;
+  height: 538px;
+  width: 100%;
+  left: 0px;
+  margin-top: 22px;
+  border-radius: 0px;
+  background-color: black;
+}
+.nombre-sec1 {
+  height: 44px;
+  width: 271px;
+  margin: 55px auto;
+  text-align: center;
+}
+.presentacion-h2 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -2px;
+}
+.contenedor-info {
+  width: 312px;
+  height: 193px;
+  margin-left: 31px;
+}
+.sobre-mi {
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.check-img {
+  margin: 57px 147px;
+}
+
+.seccion-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  height: 1375px;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 560px;
+  border-radius: 0px;
+  background-color: #fafafa;
+}
+
+.servicios-h2 {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  text-align: center;
+  margin-top: 69px;
+}
+
+.subtitulos-servicios {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+.img-compu1 {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.img-compu {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.parrafo-servicios {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  width: 262px;
+  height: 117px;
+}
+
+.seccion-3 {
+  height: 660px;
+  width: 100%;
+  margin-left: 0px;
+  border-radius: 0px;
+  background-color: #141414;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.boton {
+  margin: 24px;
+  width: 335px;
+  height: 45px;
+  background-color: #ffd953;
+  border: none;
+}
+
+.email {
+  background-color: #ffffff;
+  width: 335px;
+  height: 45px;
+  border: none;
+
+  font-family: "Roboto";
+  font-size: 13px;
+}
+
+.text {
+  background-color: #ffffff;
+  width: 335px;
+  height: 113px;
+  border: none;
+  font-family: "Roboto";
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.h2 {
+  text-align: left;
+  font-size: 13px;
+  width: 335px;
+  color: #ffffff;
+  margin-bottom: 9px;
+  margin-top: 27px;
+}
+.h2-t {
+  display: flex;
+  width: auto;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+
+  letter-spacing: -2px;
+}
+
+.pie {
+  height: 493px;
+  background-color: #dbdbdb;
+}
+
+.footer-yo {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  height: 210px;
+}
+
+.derechos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.logo-2 {
+  height: 120px;
+}
+
+.footer-redes {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  height: 283px;
+  gap: 20px;
+}
+
+.img-final {
+  margin-left: 20px;
+  height: 29px;
+  width: 29px;
+}
+
+.instagram {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nombres-logos {
+  display: inline;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.letras-redes {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
