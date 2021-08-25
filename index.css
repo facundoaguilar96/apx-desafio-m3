@@ -122,11 +122,50 @@ body {
   border-radius: 0px;
   background-color: black;
 }
+@media (min-width: 769px) {
+  .seccion-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 90px;
+    position: absolute;
+    height: 538px;
+    width: 100%;
+    left: 0px;
+    margin-top: 22px;
+    border-radius: 0px;
+    background-color: black;
+  }
+}
 .nombre-sec1 {
   height: 44px;
   width: 271px;
   margin: 55px auto;
   text-align: center;
+}
+@media (min-width: 769px) {
+  .nombre-sec1 {
+    height: 44px;
+    width: 271px;
+    margin: 0;
+    text-align: center;
+  }
+}
+.desktop-sec1 {
+}
+@media (min-width: 769px) {
+  .desktop-sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    height: 250px;
+  }
 }
 .presentacion-h2 {
   font-family: "Open Sans", sans-serif;
@@ -137,10 +176,32 @@ body {
   line-height: 44px;
   letter-spacing: -2px;
 }
+@media (min-width: 769px) {
+  .presentacion-h2 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    text-align: left;
+  }
+}
 .contenedor-info {
-  width: 312px;
-  height: 193px;
+  min-width: 1px;
+  max-height: 193px;
+  max-width: 312px;
   margin: 0 auto;
+}
+@media (min-width: 769px) {
+  .contenedor-info {
+    min-width: 312px;
+    min-height: 193px;
+    max-width: 532px;
+    max-height: 165px;
+    margin: 0;
+  }
 }
 .sobre-mi {
   color: white;
@@ -150,12 +211,37 @@ body {
   font-size: 16px;
   line-height: 19px;
 }
+@media (min-width: 769px) {
+  .sobre-mi {
+    color: white;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
 
 .check-img {
   display: flex;
   width: 100%;
   margin-top: 50px;
   justify-content: center;
+}
+@media (min-width: 769px) {
+  .img-check-desktop {
+    height: 211px;
+  }
+  .check-img {
+    display: flex;
+    justify-content: flex-end;
+
+    height: 430px;
+    width: 50%;
+    margin-top: 50px;
+
+    align-items: center;
+  }
 }
 
 .seccion-2 {
