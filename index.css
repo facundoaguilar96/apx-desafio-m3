@@ -258,6 +258,27 @@ body {
   border-radius: 0px;
   background-color: #fafafa;
 }
+.servicios-h2-desktop {
+  display: none;
+}
+@media (min-width: 769px) {
+  .servicios-h2-desktop {
+  }
+}
+@media (min-width: 769px) {
+  .seccion-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    height: 604px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 560px;
+    margin-bottom: 108px;
+    border-radius: 0px;
+    background-color: #fafafa;
+  }
+}
 
 .servicios-h2 {
   font-family: "Open Sans", sans-serif;
@@ -270,6 +291,20 @@ body {
   text-align: center;
   margin-top: 69px;
 }
+@media (min-width: 769px) {
+  .servicios-h2 {
+    grid-column-start: 2;
+
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    text-align: center;
+  }
+}
 
 .subtitulos-servicios {
   font-family: "Roboto";
@@ -279,16 +314,43 @@ body {
   line-height: 28px;
   text-align: center;
 }
+@media (min-width: 769px) {
+  .posicion1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .posicion2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  .posicion3 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+}
+
 .img-compu1 {
   display: block;
   margin: auto;
   margin-top: 20px;
+}
+@media (min-width: 769px) {
+  .img-compu1 {
+    display: block;
+    margin: auto;
+  }
 }
 
 .img-compu {
   display: block;
   margin: auto;
   margin-top: 80px;
+}
+@media (min-width: 769px) {
+  .img-compu {
+    display: block;
+    margin: auto;
+  }
 }
 
 .parrafo-servicios {
@@ -301,6 +363,11 @@ body {
   width: 262px;
   height: 117px;
 }
+@media (min-width: 769px) {
+  .parrafo-servicios {
+    margin: 0 auto;
+  }
+}
 
 .seccion-3 {
   height: 660px;
@@ -308,6 +375,13 @@ body {
   margin-left: 0px;
   border-radius: 0px;
   background-color: #141414;
+}
+@media (min-width: 769px) {
+  .seccion-3 {
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+  }
 }
 
 .contenedor {
@@ -317,6 +391,8 @@ body {
 
   justify-content: center;
 }
+@media (min-width: 769px) {
+}
 
 .boton {
   margin: 24px;
@@ -324,6 +400,11 @@ body {
   height: 45px;
   background-color: #ffd953;
   border: none;
+}
+@media (min-width: 769px) {
+  .boton {
+    width: 376px;
+  }
 }
 
 .email {
@@ -335,6 +416,11 @@ body {
   font-family: "Roboto";
   font-size: 13px;
 }
+@media (min-width: 769px) {
+  .email {
+    width: 376px;
+  }
+}
 
 .text {
   background-color: #ffffff;
@@ -345,6 +431,8 @@ body {
   font-size: 13px;
   margin-bottom: 50px;
 }
+@media (min-width: 769px) {
+}
 
 .h2 {
   text-align: left;
@@ -354,13 +442,23 @@ body {
   margin-bottom: 9px;
   margin-top: 27px;
 }
+@media (min-width: 769px) {
+  .text {
+    background-color: #ffffff;
+    width: 376px;
+  }
+  .h2 {
+    width: 376px;
+  }
+}
+
 .h2-t {
   display: flex;
   width: auto;
   height: 120px;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
 
   color: #ffffff;
   font-family: "Open Sans";
@@ -372,10 +470,29 @@ body {
 
   letter-spacing: -2px;
 }
+@media (min-width: 769px) {
+  .h2-t {
+    margin-top: 60px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
 
 .pie {
   height: 493px;
   background-color: #dbdbdb;
+}
+@media (min-width: 769px) {
+  .pie {
+    height: 346px;
+    background-color: #c4c4c4;
+    background-image: url("./puntitos.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 300px;
+  }
 }
 
 .footer-yo {
@@ -384,6 +501,8 @@ body {
   align-items: baseline;
   justify-content: center;
   height: 210px;
+}
+@media (min-width: 769px) {
 }
 
 .derechos {
@@ -395,9 +514,19 @@ body {
   margin-left: 20px;
   margin-top: 0px;
 }
+@media (min-width: 769px) {
+  .derechos {
+    font-size: 20px;
+  }
+}
 
 .logo-2 {
   height: 120px;
+}
+@media (min-width: 769px) {
+  .logo-2 {
+    height: 200px;
+  }
 }
 
 .footer-redes {
@@ -408,26 +537,39 @@ body {
   height: 283px;
   gap: 20px;
 }
+@media (min-width: 769px) {
+  .footer-redes {
+    justify-content: center;
+  }
+}
 
 .img-final {
   margin-left: 20px;
   height: 29px;
   width: 29px;
 }
+@media (min-width: 769px) {
+}
 
 .instagram {
   display: inline;
   margin-left: 20px;
 }
+@media (min-width: 769px) {
+}
 
 .nombres-logos {
   display: inline;
+}
+@media (min-width: 769px) {
 }
 
 .center {
   display: flex;
   align-items: center;
   align-content: center;
+}
+@media (min-width: 769px) {
 }
 
 .letras-redes {
@@ -436,4 +578,6 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+}
+@media (min-width: 769px) {
 }
